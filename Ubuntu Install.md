@@ -41,8 +41,7 @@ Many users will be happy with the default configuration in which case you can ju
       libinput-gestures-setup start #(start process)
       libinput-gestures-setup autostart #(startup with Ubutu)
 
-
-# If this doesn't work for you then you will have to play around with the commands in ~/.config/ or aka /home/<yourusername>/.config/
+If this doesn't work for you then you will have to play around with the commands in ~/.config/ or aka /home/<yourusername>/.config/
 to get there:
       
       cd home/<yourusername> | cd .config
