@@ -37,9 +37,12 @@ Other:
       cd libinput-gestures
       sudo ./libinput-gestures-setup install
 Many users will be happy with the default configuration in which case you can just type the following and you are ready to go:
+Start the process:
 
-      libinput-gestures-setup start #(start process)
-      libinput-gestures-setup autostart #(startup with Ubutu)
+      libinput-gestures-setup start 
+Make the tool startup with Ubuntu:
+
+      libinput-gestures-setup autostart 
 
 If this doesn't work for you then you will have to play around with the commands in ~/.config/ or aka /home/<yourusername>/.config/
 to get there:
@@ -103,8 +106,8 @@ To find a previous command is to enter say the first two or three letters and up
 /////////////////////////////////////////////////////////////// 
 # Popcorn Time Install:
 this is for the github clone, so far as not worked for me.
-# I suggest going to popcorntime.sh/ and downloading the .deb
-# then
+I suggest going to popcorntime.sh/ and downloading the .deb
+then,
 Install Popcorn Time:
       
       cd /opt/     # /opt is for "the installation of add-on application software packages"
