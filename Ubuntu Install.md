@@ -1,10 +1,9 @@
           Ubuntu Install Standards:
-Kake your Downloads folder structure, I did this:
+Make your Downloads folder structure, I did this:
 $ cd Downloads/
 $ mkdir programs    # Store all your downloaded packages/repositories in here
 
 
-//////////////////////////////////////////////////////////////////////////////
 Install atom text editor from github:
 
 
