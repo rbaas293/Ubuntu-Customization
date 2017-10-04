@@ -1,7 +1,8 @@
 # Ubuntu Install Standards:
-
+This document provides instruction for setting up handy programs/tools for your new or existing ubuntu install. 
 # Folder Structure:
 Make your Downloads folder structure, I did this:
+      
       cd Downloads/
       mkdir programs    # Store all your downloaded packages/repositories in here
 
