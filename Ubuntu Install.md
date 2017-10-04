@@ -1,10 +1,10 @@
-          Ubuntu Install Standards:
+# Ubuntu Install Standards:
 Make your Downloads folder structure, I did this:
 $ cd Downloads/
 $ mkdir programs    # Store all your downloaded packages/repositories in here
 
 
-Install atom text editor from github:
+# Install atom text editor from github:
 
 
 $ wget https://atom.io/download/deb # get atom-amd64.deb
