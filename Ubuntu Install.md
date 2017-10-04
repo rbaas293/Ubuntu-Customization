@@ -1,4 +1,6 @@
 # Ubuntu Install Standards:
+
+# Folder Structure:
 Make your Downloads folder structure, I did this:
       cd Downloads/
       mkdir programs    # Store all your downloaded packages/repositories in here
@@ -27,11 +29,11 @@ GNU nano 2.5.3                                                                 F
 Once you log back in:
 
       sudo apt-get install xdotool wmctrl     # These are dependency's
-Install Software:
+Install Base Tool:
 Debian & Ubuntu:
 
       sudo apt-get install libinput-tools
-Other:
+Install libinput-gestures:
 
       git clone http://github.com/bulletmark/libinput-gestures
       cd libinput-gestures
