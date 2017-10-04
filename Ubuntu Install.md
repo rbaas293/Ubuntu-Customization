@@ -1,27 +1,25 @@
 # Ubuntu Install Standards:
 Make your Downloads folder structure, I did this:
-$ cd Downloads/
-$ mkdir programs    # Store all your downloaded packages/repositories in here
+      cd Downloads/
+      mkdir programs    # Store all your downloaded packages/repositories in here
 
 
 # Install atom text editor from github:
 
 
-$ wget https://atom.io/download/deb # get atom-amd64.deb
-$ dpkg -i atom-amd64.deb # Install atom using dpkg:
+      wget https://atom.io/download/deb # get atom-amd64.deb
+      dpkg -i atom-amd64.deb # Install atom using dpkg:
 
 Once atom is installed:
 Install the atom IDE package from atoms package manager (apm):
 
-$ apm install atom-ide-ui
-
+      apm install atom-ide-ui
 Install Language packs:
 
-$ apm install ide-cpp
-$ apm install ide-python
+      apm install ide-cpp
+      apm install ide-python
 
-///////////////////////////////////////////////////////////////////////////////
-Install libinput-tools
+# Install libinput-tools
 
 GNU nano 2.5.3                                                                 File: libinput-tools
 
@@ -30,19 +28,21 @@ LIBINPUT-TOOLS:
       sudo gpasswd -a $USER input     # IDK what this does...
 Logout:
 Login:
+
       sudo apt-get install xdotool wmctrl     # These are dependency's
 Install Software:
 Debian & Ubuntu:
+
       sudo apt-get install libinput-tools
 Other:
+
       git clone http://github.com/bulletmark/libinput-gestures
       cd libinput-gestures
       sudo ./libinput-gestures-setup install
-
 Many users will be happy with the default configuration in which case you can just type the following and you are ready to go:
 
-libinput-gestures-setup start (start process)
-libinput-gestures-setup autostart (startup with Ubutu)
+      libinput-gestures-setup start #(start process)
+      libinput-gestures-setup autostart #(startup with Ubutu)
 
 #
 # If this doesn't work for you then you will have to play around with the commands in ~/.config/ or aka /home/<yourusername>/.config/
