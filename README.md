@@ -1,8 +1,4 @@
 # Ubuntu-Customization
-This is a guide for anyone who has interest in the way I customized my Ubuntu install
-
-To get started:
-# Ubuntu Install Standards:
 This document provides instruction for setting up handy programs/tools for your new or existing Ubuntu install. 
 # Folder Structure:
 Make your Downloads folder structure, I did this:
@@ -124,7 +120,13 @@ Install Popcorn Time:
       ./make_popcorn.sh
       sudo tar Jx -C /opt/popcorn-time      #Extract to directory made above
       sudo ln -sf /opt/popcorn-time/Popcorn-Time /usr/bin/popcorn-time      #create a symbolic link so non-privileged users can start Popcorn Time in any directory.
+# Installing Vivialdi
 
+To make flash player work with Vivaldi:
+
+	sudo add-apt-repository "deb http://archive.canonical.com/ubuntu `lsb_release -cs` partner"
+	sudo apt update
+	sudo apt install adobe-flashplugin
 
 # Desktop Customization Software:
 
