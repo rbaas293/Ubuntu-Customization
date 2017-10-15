@@ -23,8 +23,8 @@ Install Language packs:
       apm install ide-python
 
 # Install libinput-tools
-
-GNU nano 2.5.3                                                                 File: libinput-tools
+Enables Mac like swipe gestures for changing desktops.
+Start with typing in the following command: 
 
       sudo gpasswd -a $USER input     # install will not work till you logout and then back in
 Once you log back in:
