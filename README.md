@@ -149,3 +149,35 @@ sudo pip install psutil logutils bottle batinfo https://bitbucket.org/gleb_zhuli
 sudo pip install glances
 ```	
 More Info [Here](https://askubuntu.com/questions/293426/system-monitoring-tools-for-ubuntu).
+
+## Foobix
+Install Fooblnx in Ubuntu:
+Stable:
+sudo add-apt-repository ppa:foobnix-team/foobnix-player
+sudo apt-get update
+sudo apt-get install foobnix
+
+Development:
+sudo apt-get remove foobnix
+sudo add-apt-repository ppa:popsul1993/ppa
+sudo apt-get update
+sudo apt-get install foobnix
+
+Install from source:
+sudo python setup.py install
+# or
+sudo make install
+# or
+./install
+
+or if sudo apt-get install foobnix does not work and gives error "E: Package 'foobnix' has no installation candidate"
+
+use: (will install all dependencies it can for the last run install package.)
+
+	sudo apt-get -f install
+
+if not go to <https://launchpad.net/~foobnix-team/+archive/ubuntu/foobnix-player/+packages>
+
+find foobnix_<VERSION>_amd64.deb and copy link adress.
+
+##
