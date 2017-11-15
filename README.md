@@ -120,7 +120,7 @@ Install Popcorn Time:
       ./make_popcorn.sh
       sudo tar Jx -C /opt/popcorn-time      #Extract to directory made above
       sudo ln -sf /opt/popcorn-time/Popcorn-Time /usr/bin/popcorn-time      #create a symbolic link so non-privileged users can start Popcorn Time in any directory.
-# Installing Vivialdi
+## Installing Vivialdi
 
 To make flash player work with Vivaldi:
 
@@ -128,6 +128,21 @@ To make flash player work with Vivaldi:
 	sudo apt update
 	sudo apt install adobe-flashplugin
 
-# Desktop Customization Software:
+## Desktop Customization Software:
 
 	https://www.rainmeter.net/discover
+	
+## Glances (CLI System Monitoring)
+
+Install:
+* Run `sudo apt install glances`.
+* or `curl -L https://raw.githubusercontent.com/nicolargo/glancesautoinstall/master/install.sh | sudo /bin/bash`.
+* or `wget -O- https://raw.githubusercontent.com/nicolargo/glancesautoinstall/master/install.sh | sudo /bin/bash`.
+
+Manual Installation:
+```Bash
+sudo apt-get install python-pip build-essential python-dev lm-sensors
+sudo pip install psutil logutils bottle batinfo https://bitbucket.org/gleb_zhulik/py3sensors/get/tip.tar.gz zeroconf netifaces pymdstat influxdb elasticsearch potsdb statsd pystache docker-py pysnmp pika py-cpuinfo bernhard
+sudo pip install glances
+```	
+More Info [Here](https://askubuntu.com/questions/293426/system-monitoring-tools-for-ubuntu).
