@@ -1,13 +1,13 @@
 # Ubuntu-Customization
 This document provides instruction for setting up handy programs/tools for your new or existing Ubuntu install. 
-# Folder Structure:
+## Folder Structure:
 Make your Downloads folder structure, I did this:
 
       cd Downloads/
       mkdir programs    # Store all your downloaded packages/repositories in here
 
 
-# Install atom text editor from GitHub:
+## Install atom text editor from GitHub:
 
 
       wget https://atom.io/download/deb # get atom-amd64.deb
@@ -22,7 +22,7 @@ Install Language packs:
       apm install ide-cpp
       apm install ide-python
 
-# Install libinput-tools
+## Install libinput-tools
 Enables Mac like swipe gestures for changing desktops.
 Start with typing in the following command: 
 
@@ -71,7 +71,7 @@ FOR MORE INFO GO TO https://github.com/bulletmark/libinput-gestures
 
 
 
-# Another OneDrive Client (this one says it supports Office365)
+## OneDrive Client (Supports Office365)
 *Reference: https://github.com/skilion/onedrive
 Dependencies:
 
@@ -94,7 +94,7 @@ Install:
 
 More: https://help.ubuntu.com/community/UsingTheTerminal
 
-# Incremental history searching:
+## Incremental history searching:
 
       cd Downloads/programs/
       gedit ~/.inputrc
@@ -108,7 +108,7 @@ Past the following and save:
 
 To find a previous command is to enter say the first two or three letters and upward arrow will take you there quickly:
 
-# Popcorn Time Install:
+## Popcorn Time Install:
 this is for the github clone, so far as not worked for me.
 I suggest going to popcorntime.sh/ and downloading the .deb
 then,
@@ -121,6 +121,9 @@ Install Popcorn Time:
       sudo tar Jx -C /opt/popcorn-time      #Extract to directory made above
       sudo ln -sf /opt/popcorn-time/Popcorn-Time /usr/bin/popcorn-time      #create a symbolic link so non-privileged users can start Popcorn Time in any directory.
 ## Installing Vivialdi
+Install:
+* `wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.12.955.48-1_amd64.deb`
+* `dpkg -i vivaldi-stable_1.12.955.48-1_amd64.deb` 
 
 To make flash player work with Vivaldi:
 
