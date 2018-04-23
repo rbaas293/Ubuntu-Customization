@@ -127,9 +127,16 @@ Install:
 
 To make flash player work with Vivaldi:
 
+1. **On Ubuntu/Debian (a non-root user system.)**
 	sudo add-apt-repository "deb http://archive.canonical.com/ubuntu `lsb_release -cs` partner"
 	sudo apt update
 	sudo apt install adobe-flashplugin
+	
+2. **On system with default root user (like Kali Linux)**
+	git clone https://github.com/rbaas293/Ubuntu-Customization.git # Clone this Repo
+	cd Ubuntu-Customization
+	chmod +x pepper-flash.sh
+	./pepper-flash.sh
 
 ## Desktop Customization Software:
 
