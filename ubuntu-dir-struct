@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# This will be a script to auto config my (Ryan Baas') preffered directory setup.
+
+# Make directories in Downloads Folder:
+cd ~/Downloads/
+mkdir programs
+cd programs
+mkdir deb exe targz
+
+# Make directories in Documents Folder: 
+cd ~/Documents/
+mkdir mygit git-clones
+cd mygit
+mkdir uc-github github
+cd uc-github
+mkdir Arduino
+cd ..
+cd github
+mkdir Arduino
+
+# Download all apt packages:
+
+# Sign into git
+git config --global user.name "Ryan Baas"
+git config --global user.email rybaas293@gmail.com
+
+#git clone all my stuff
+cd ~/Documents/mygit/github/
+git clone https://github.com/rbaas293/Ubuntu-Customization.git
+git clone https://github.com/rbaas293/Cheat-Sheets.git
+cd ~/Documents/mygit/github/Ardunio 
+git clone https://github.com/rbaas293/Arduino-TTL-Serial-DIO.git
+
+
