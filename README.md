@@ -122,8 +122,9 @@ Install Popcorn Time:
       sudo ln -sf /opt/popcorn-time/Popcorn-Time /usr/bin/popcorn-time      #create a symbolic link so non-privileged users can start Popcorn Time in any directory.
 ## Installing Vivialdi
 Install:
-* `wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.12.955.48-1_amd64.deb`
-* `dpkg -i vivaldi-stable_1.12.955.48-1_amd64.deb` 
+* `echo "deb http://repo.vivaldi.com/stable/deb/ stable main" | sudo tee /etc/apt/sources.list.d/vivaldi.list > /dev/null`
+* `wget -O - http://repo.vivaldi.com/stable/linux_signing_key.pub | sudo apt-key add -` 
+* `sudo apt update && sudo apt install vivaldi-stable`
 
 To make flash player work with Vivaldi:
 
